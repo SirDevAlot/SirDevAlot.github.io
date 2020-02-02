@@ -17,7 +17,7 @@ body{
 	color: #505458;
 	background-color: #f9f9f9;
 	overflow-x:	hidden !important;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 /*--------------------------------------------------------------
 	1).Pre-loader
@@ -84,10 +84,10 @@ body{
 	2).Common
 ----------------------------------------------------------------*/
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 p {
-	font-family: 'Arimo', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .overlay {
 	top: 0;
@@ -105,9 +105,6 @@ p {
 	position: absolute;
 	background: rgba(255,255,255 ,0.5) !important;
 }
-#animation-canvas {
-	position: absolute;
-}
 ::selection{
   	background: rgba(238, 110, 115, 0.30);
   	color: #ffffff;
@@ -122,18 +119,18 @@ p {
 	font-size: 36px;
 	font-weight: 600;
 	margin-bottom: 30px;
-    letter-spacing: 2px;
-    text-align: center;
-    text-transform: capitalize;
-    font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  /* text-transform: capitalize */;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .section-title p {
 	color: #fff;
-    font-size: 15px;
-    font-weight: 400;
-    margin: 30px 0px 40px;
-    font-family: 'Arimo', sans-serif;
-    line-height: 26px;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 30px 0px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 26px;
 }
 .backgroung {
 	position: fixed;
@@ -174,7 +171,7 @@ p {
 .fullpage-wrapper {
 	z-index: 99;
 }
-#fp-nav ul li a.active span, .fp-slidesNav ul li a.active span,
+/* #fp-nav ul li a.active span, .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span, .fp-slidesNav ul li:hover a.active span {
     background: #ee6e7d !important;
 }
@@ -194,13 +191,13 @@ p {
 	color: #ee6e73 !important;
 }
 #fp-nav ul li .fp-tooltip.right {
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	font-size: 15px;
 	font-weight: 700;
 	letter-spacing: 1px !important;
 	top: -5px;
 	right: 40px !important;
-}
+} */
 .title h1 {
 	color: #505458;
 }
@@ -232,13 +229,13 @@ p {
 	font-weight: 400;
 	padding: 9px 45px;
 	border-radius: 0px;
-	text-transform: capitalize;
+	/* text-transform: capitalize */;
 	letter-spacing: 1px;
 	font-size: 17px;
 	border: 2px solid #fff;
 	background: transparent;
 	text-align: center !important;
-	font-family: 'Arimo', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .scribe .dark-btn {
 	background: #ee6e73;
@@ -251,13 +248,13 @@ p {
 	font-weight: 400;
 	padding: 9px 45px;
 	border-radius: 0px;
-	text-transform: capitalize;
+	/* text-transform: capitalize */;
 	letter-spacing: 1px;
 	font-size: 16px;
 	border: 2px solid #fff;
 	background: transparent;
 	text-align: center !important;
-	font-family: 'Arimo', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 .send-button:hover, .send-button:focus {
@@ -312,14 +309,14 @@ p {
 	padding: 15px 15px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .logo span {
 	width: 32px;
 	height: 32px;
 	color: #ee6e73;
 	font-size: 20px;
-    font-weight: bold;
+  font-weight: bold;
 	padding: 0px 10px;
 	line-height: 32px;
 	margin-right: 5px;
@@ -327,19 +324,19 @@ p {
 	text-align: center;
 	display: inline-block;
 	background-color: #fff;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .logo:hover, .logo:focus {
 	color: #fff;
 }
 .navbar-custom .navbar-nav li a {
 	color: #fff;
-    font-size: 18px;
-    margin: 5px 0px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: capitalize;
-    font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  margin: 5px 0px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  /* text-transform: capitalize */;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .navbar-custom .nav>li>a:hover, .navbar-custom .nav>li>a:focus {
 	color: #ee6e73;
@@ -393,14 +390,14 @@ p {
 }
 .home-title p {
 	color: #fff;
-    margin: 0px;
-    font-size: 17px;
-    font-weight: 400;
-    text-align: center;
-    letter-spacing: 2px;
-    text-transform: capitalize;
-    margin-bottom: 30px;
-    font-family: 'Arimo', sans-serif;
+  margin: 0px;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 2px;
+  /* text-transform: capitalize */;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .home-title p.demo {
     color: #505458;
@@ -409,6 +406,9 @@ p {
 	width: 100%;
 	max-width: 820px;
 	margin: 20px auto 0 auto;
+}
+.copy {
+  margin-bottom: 0px !important;
 }
 .common {
 	padding-top: 0px !important;
@@ -486,35 +486,35 @@ p {
 	4.2)Time circles
 ----------------------------------------------------------------*/
 .time_circles {
-    width: 100%;
-    height: auto;
-    position: relative;
+  width: 100%;
+  height: auto;
+  position: relative;
 }
 .time_circles > div {
-    position: absolute;
-    text-align: center;
+  position: absolute;
+  text-align: center;
 }
 .time_circles > div > h4 {
-    color: #fff;
-    margin: 0px;
-    padding: 0px;
-    font-weight: 400;
-  	text-align: center;
-  	letter-spacing: 1px;
-    font-size: 15px !important;
-    text-transform: capitalize;
-    line-height: 17px !important;
-    font-family: 'Arimo', sans-serif;
+  color: #fff;
+  margin: 0px;
+  padding: 0px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 15px !important;
+  /* text-transform: capitalize */;
+  line-height: 17px !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .time_circles > div > span {
-    color: #fff;
-    width: 100%;
-    display: block;
-    font-size: 60px;
-    font-weight: 600;
-    margin-top: 0.4em;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
+  color: #fff;
+  width: 100%;
+  display: block;
+  font-size: 60px;
+  font-weight: 600;
+  margin-top: 0.4em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .dark-circle .time_circles > div > h4 {
 	color: #787787;
@@ -536,7 +536,7 @@ p {
 	font-size: 15px;
 	text-align: center;
 	margin-bottom: 20px;
-	font-family: 'Arimo', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .confirm-message form {
 	max-width: 600px;
@@ -571,10 +571,10 @@ p {
 	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
 }
 label.valid {
-  	color: #A0D08D;
-  	font-weight: normal;
-  	margin: 10px 0;
-  	font-family: 'Arimo', sans-serif;
+  color: #A0D08D;
+  font-weight: normal;
+  margin: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .group-dark input {
 	border: 2px solid #ee6e73;
@@ -612,15 +612,15 @@ label.valid {
 .subscribe-submit {
 	top: -4px;
 	color: #fff;
-    font-size: 17px;
-    padding: 12px 30px;
+  font-size: 17px;
+  padding: 12px 30px;
 	border-radius: 0px;
 	position: relative;
 	background: #ee6e73;
-    letter-spacing: 1px;
-    border: 2px solid #fff;
-    outline: none !important;
-    font-family: 'Arimo', sans-serif;
+  letter-spacing: 1px;
+  border: 2px solid #fff;
+  outline: none !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .subscribe-submit:hover{
 	color: #fff;
@@ -628,7 +628,7 @@ label.valid {
 }
 .submit-darkbtn {
 	background: #ee6e73;
-    border: 2px solid #ee6e73;
+  border: 2px solid #ee6e73;
 }
 /*--------------------------------------------------------------
 	6).About Section
@@ -646,7 +646,7 @@ label.valid {
 	font-size: 35px;
 	margin-top: 20px;
 	font-weight: 400;
-	text-transform: capitalize;
+	/* text-transform: capitalize */;
 }
 /*---------- pie-charat	----------*/
 .countdowm-main {
@@ -657,23 +657,22 @@ label.valid {
 }
 .countdown h1 {
 	color: #fff;
-    font-size: 28px;
-    font-weight: 600;
-    margin: 15px 0px;
-    text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 15px 0px;
+  text-align: center;
 }
 .countdown h2 {
   color: #fff;
-    font-size: 28px;
-    font-weight: 600;
-    margin: 15px 0px;
-    text-align: center;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 15px 0px;
+  text-align: center;
 }
 .countdown p {
 	color: #fff;
 	font-size: 14px;
-	/*text-align: center;*/
-	font-family: 'Arimo', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .count-panal {
 	text-align: center;
@@ -699,8 +698,8 @@ label.valid {
 	text-align: center;
 	font-weight: 300;
 	display: inline-block;
-    line-height: 140px;
-	font-family: 'Josefin Sans', sans-serif;
+  line-height: 140px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .percent-dark span {
 	color: #787778;
@@ -740,7 +739,7 @@ canvas {
 	font-weight: 600;
 	margin: 20px 0px;
 	text-align: center;
-	text-transform: capitalize;
+	/* text-transform: capitalize */;
 }
 .service-details .services-title {
   color: #fff;
@@ -748,7 +747,7 @@ canvas {
   font-weight: 600;
   margin: 20px 0px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize */;
 }
 .services-section .services-intro {
   color: #fff;
@@ -756,7 +755,7 @@ canvas {
   font-weight: 600;
   margin: 20px 0px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize */;
 }
 .about-section .process-intro {
   color: #fff;
@@ -764,7 +763,7 @@ canvas {
   font-weight: 600;
   margin: 20px 0px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize */;
 }
 .contact-section .contact-intro {
   color: #fff;
@@ -772,7 +771,7 @@ canvas {
   font-weight: 600;
   margin: 20px 0px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize */;
 }
 .subscribe-section .subscribe-intro {
   color: #fff;
@@ -780,7 +779,7 @@ canvas {
   font-weight: 600;
   margin: 20px 0px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize */;
 }
 .service-details p {
 	color: #fff;
@@ -788,7 +787,7 @@ canvas {
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
-	font-family: 'Arimo', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .service-dark h1 {
 	color: #505458;
@@ -818,20 +817,20 @@ canvas {
 	margin: 0px;
 	color: #fff;
 	font-size: 14px;
-    border-top: none;
-    font-weight: 400;
-    box-shadow: none;
-    border-left: none;
-    padding: 9px 20px;
-    border-right: none;
-    border-radius: 0px;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    background: transparent;
-    -webkit-appearance: none;
-    border-bottom: 2px solid #fff;
-    font-family: 'Arimo', sans-serif;
+  border-top: none;
+  font-weight: 400;
+  box-shadow: none;
+  border-left: none;
+  padding: 9px 20px;
+  border-right: none;
+  border-radius: 0px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  background: transparent;
+  -webkit-appearance: none;
+  border-bottom: 2px solid #fff;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .form-control:focus {
 	box-shadow: none;
@@ -849,20 +848,20 @@ canvas {
 	border-bottom: 2px solid #ee6e73;
 }
 .error {
-    margin: 8px 0px;
-    color: #ee6e73;
-    display: none;
-    z-index: 1100;
-    font-family: 'Arimo', sans-serif;
+  margin: 8px 0px;
+  color: #ee6e73;
+  display: none;
+  z-index: 1100;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #ajaxsuccess {
-    font-size: 16px;
-    width: 100%;
-    color: #ee6e73;
-    display: none;
-    clear: both;
-    margin: 8px 0px;
-    font-family: 'Arimo', sans-serif;
+  font-size: 16px;
+  width: 100%;
+  color: #ee6e73;
+  display: none;
+  clear: both;
+  margin: 8px 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*--------------------------------------------------------------
 	9).Footer
@@ -881,34 +880,28 @@ canvas {
 	letter-spacing: 1px;
 	margin-bottom: 10px;
 	background: transparent;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .footer p {
 	font-size: 14px;
 	font-weight: 400;
 	padding-bottom: 30px;
 }
-.dark-copyright p {
-	font-size: 14px;
-    font-weight: 400;
-    padding-bottom: 30px;
-    margin-bottom: 0px;
-    color: #505458;
-}
+
 .social-button {
 	color: #ee6e73;
-    font-weight: 400;
-    padding: 9px 45px;
-    border-radius: 0px;
-    text-transform: capitalize;
-    letter-spacing: 1px;
-    font-size: 14px;
-    display: none;
-    border: 2px solid #fff;
-    background: transparent;
-    text-align: center !important;
-    font-family: 'Arimo', sans-serif;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  font-weight: 400;
+  padding: 9px 45px;
+  border-radius: 0px;
+  /* text-transform: capitalize */;
+  letter-spacing: 1px;
+  font-size: 14px;
+  display: none;
+  border: 2px solid #fff;
+  background: transparent;
+  text-align: center !important;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
 }
 /*--------------------------------------------------------------
 	10).Background-Parallax
@@ -1331,5 +1324,5 @@ strong {
   font-weight: 600;
   margin: 20px 0px;
   text-align: center;
-  text-transform: capitalize;
+  /* text-transform: capitalize */;
 }
